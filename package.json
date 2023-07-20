@@ -10,5 +10,13 @@
     "license": "MIT",
     "scripts": {
         "dev": "tsc -w"
+    },
+    "peerDependencies": {
+        "@types/node": "^20.4.2",
+        "pm-xtn-dom": "^1.0.5"
+    },
+    "dependencies": {
+        "@types/node": "^20.4.2",
+        "pm-xtn-dom": "^1.0.5"
     }
 }

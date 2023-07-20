@@ -1,1 +1,2 @@
-//export * from './dom-access';
+export * from './types';
+export * from './components';
