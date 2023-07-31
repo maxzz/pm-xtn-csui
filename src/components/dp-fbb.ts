@@ -1,5 +1,5 @@
 import { DomCss } from "../types";
-import { domi, jElem } from "pm-xtn-dom";
+import { domi, jElem } from "../imports";
 import { DpIco } from "./dp-ico";
 
 // function rippleOnMouseDown(el: HTMLElement) {}

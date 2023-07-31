@@ -1,5 +1,5 @@
 import { DomCss } from "../types";
-import { domi } from "pm-xtn-dom";
+import { domi } from "../imports";
 
 export class DpLit { // Hili - Highlignt
     private container: HTMLElement = null;

@@ -1,5 +1,5 @@
 import { DomCss } from "../types";
-import { domi } from "pm-xtn-dom";
+import { domi } from "../imports";
 import { icoUtl } from "./dp-ico-utils";
 
 export class DpIco {

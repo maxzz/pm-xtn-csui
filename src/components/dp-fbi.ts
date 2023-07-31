@@ -1,5 +1,5 @@
 import { APIMSG_DID, APIMSG_I2Cs_IMenuUID, DomCss, FBIType, traceCsUi } from "../types";
-import { IPointNum, jElem, jElement, nodeInDocument, throttleByRAF } from "pm-xtn-dom";
+import { IPointNum, jElem, jElement, nodeInDocument, throttleByRAF } from "../imports";
 import { DpFbm } from "./dp-fbm";
 import { DpIco } from "./dp-ico";
 import { icoUtl } from "./dp-ico-utils";

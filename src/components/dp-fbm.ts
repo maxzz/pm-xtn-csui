@@ -1,5 +1,5 @@
 import { APIMSG_DID, DomCss } from "../types";
-import { jElement, IPointNum, utl, px, jElem, domi, IDomiString } from "pm-xtn-dom";
+import { jElement, IPointNum, utl, px, jElem, domi, IDomiString } from "../imports";
 import { DpFbi } from "./dp-fbi";
 
 export type MenuDomis = Record<string /*I2Cs.IMenuUniqueID*/, IDomiString>;
