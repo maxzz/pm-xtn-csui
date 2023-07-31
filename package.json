@@ -1,31 +1,30 @@
 {
     "name": "pm-xtn-csui",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "PM extension content scripts UI",
-    "type": "module",
-    "main": "./src/index.ts",
+    "license": "MIT",
     "files": [
         "./src",
         "./dist"
     ],
+    "peerDependencies": {
+        "pm-xtn-dom": "^1.0.14"
+    },
+    "devDependencies": {
+        "@types/node": "^20.4.2"
+    },
+    "type": "module",
+    "_main": "./src/index.ts",
+    "types": "./dist/index.d.ts",
     "exports": {
         ".": {
             "types": "./dist/index.d.ts",
-            "default": "./dist/index.js"
+            "import": "./dist/index.js"
         }
     },
-    "license": "MIT",
     "scripts": {
         "dev": "tsc -w",
         "build": "tsc",
         "prepublish": "yarn build"
-    },
-    "peerDependencies": {
-        "@types/node": "^20.4.2",
-        "pm-xtn-dom": "^1.0.5"
-    },
-    "dependencies": {
-        "@types/node": "^20.4.2",
-        "pm-xtn-dom": "^1.0.5"
     }
 }
