@@ -1,14 +1,13 @@
 {
     "name": "pm-xtn-csui",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "PM extension content scripts UI",
     "license": "MIT",
     "files": [
         "./src",
         "./dist"
     ],
-    "peerDependencies": {
-    },
+    "peerDependencies": {},
     "devDependencies": {
         "@types/node": "^20.4.2",
         "pm-xtn-dom": "*"
