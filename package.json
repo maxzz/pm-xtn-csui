@@ -8,10 +8,10 @@
         "./dist"
     ],
     "peerDependencies": {
-        "pm-xtn-dom": "*"
     },
     "devDependencies": {
-        "@types/node": "^20.4.2"
+        "@types/node": "^20.4.2",
+        "pm-xtn-dom": "*"
     },
     "type": "module",
     "_main": "./src/index.ts",
