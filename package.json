@@ -3,6 +3,11 @@
     "version": "1.0.4",
     "description": "PM extension content scripts UI",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maxzz/pm-xtn-csui.git"
+    },
+    "homepage": "https://github.com/maxzz/pm-xtn-csui",
     "files": [
         "./src",
         "./dist"
