@@ -1,6 +1,6 @@
 {
     "name": "pm-xtn-csui",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "PM extension content scripts UI",
     "license": "MIT",
     "repository": {
@@ -14,8 +14,8 @@
     ],
     "peerDependencies": {},
     "devDependencies": {
-        "@types/node": "^20.4.2",
-        "pm-xtn-dom": "*"
+        "@types/node": "20.5.7",
+        "pm-xtn-dom": "1.0.15"
     },
     "type": "module",
     "_main": "./src/index.ts",
