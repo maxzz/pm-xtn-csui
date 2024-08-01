@@ -1,5 +1,5 @@
 import { APIMSG_DID, DomCss } from "../types";
-import { jElement, IPointNum, utl, px, jElem, domi, IDomiString } from "../imports";
+import { jElement, IPointNum, px, jElem, domi, IDomiString, css } from "../imports";
 import { DpFbi } from "./dp-fbi";
 
 export type MenuDomis = Record<string /*I2Cs.IMenuUniqueID*/, IDomiString>;
@@ -106,7 +106,7 @@ export class DpFbm {
             box.left = box.left - logo.w * .5;
         }
 
-        utl.css(elem, { top: px(box.top), left: px(box.left) });
+        css(elem, { top: px(box.top), left: px(box.left) });
     }
 
     public alignMenu(alighToMover: HTMLElement): void {
