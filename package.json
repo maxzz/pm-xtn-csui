@@ -12,12 +12,6 @@
         "./src",
         "./dist"
     ],
-    "peerDependencies": {},
-    "devDependencies": {
-        "@types/node": "20.5.7",
-        "pm-xtn-dom": "1.0.15"
-    },
-    "type": "module",
     "_main": "./src/index.ts",
     "types": "./dist/index.d.ts",
     "exports": {
@@ -26,9 +20,16 @@
             "import": "./dist/index.js"
         }
     },
+    "type": "module",
+    "peerDependencies": {},
+    "devDependencies": {
+        "@types/node": "20.5.7",
+        "pm-xtn-dom": "latest"
+    },
     "scripts": {
         "dev": "tsc -w",
         "build": "tsc",
-        "prepublish": "yarn build"
+        "prepublish": "pnpm build",
+        "to-npm": "pnpm publish --no-git-checks"
     }
 }
